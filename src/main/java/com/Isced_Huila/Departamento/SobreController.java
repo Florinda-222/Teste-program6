@@ -6,9 +6,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 @RequestMapping("/teste")
 public class SobreController {
-@GetMapping
+@GetMapping 
     public String paginaSobre() {
- return "index";
+ return "index"; //procura o ficheiro index.html dentro da pasta templates
 
     }
 }

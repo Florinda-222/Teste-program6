@@ -8,6 +8,8 @@ public class DepartamentoApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(DepartamentoApplication.class, args);
-	}
+		System.out.println("Bem-Vindo ao Departamento");
+	
+			}
 
 }
